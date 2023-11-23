@@ -3,9 +3,9 @@
  * Date: 23.11.2023
  * Name: task 1
  */
-#ifndef TASK_2_H
-#define TASK_2_H
+#ifndef TASK_4_H
+#define TASK_4_H
 
-bool is_power_of_two(int N);
+bool is_prime(int n, int divisor = 2);
 
 #endif
