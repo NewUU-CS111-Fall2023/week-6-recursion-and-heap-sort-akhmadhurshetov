@@ -3,18 +3,9 @@
  * Date: 23.11.2023
  * Name: task 1
  */
-#include "task_1.h"
-#include <iostream>
+#ifndef TASK_1_H
+#define TASK_1_H
 
-void print_numbers_recursive(int A, int B) {
-    if (A == B) {
-        std::cout << A << std::endl;
-    } else {
-        std::cout << A << std::endl;
-        if (A < B) {
-            print_numbers_recursive(A + 1, B);
-        } else {
-            print_numbers_recursive(A - 1, B);
-        }
-    }
-}
+void print_numbers_recursive(int A, int B);
+
+#endif
